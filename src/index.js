@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+// 컴포넌트를 페이지에 렌더링 해줌
+//
+root.render( 
   <React.StrictMode>
-    <App />
+    <App /> 
   </React.StrictMode>
 );
 
